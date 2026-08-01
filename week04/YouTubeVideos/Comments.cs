@@ -1,7 +1,7 @@
 class Comments
 {
-    private string commentAuthor;
-    private string text;
+    private string _commentAuthor;
+    private string _text;
 
     public Comments()
     {
@@ -9,21 +9,21 @@ class Comments
 
     public string GetCommentAuthor()
     {
-        return commentAuthor;
+        return _commentAuthor;
     }
 
     public string GetCommentText()
     {
-        return text;
+        return _text;
     }
 
     public void SetCommentAuthor(string author)
     {
-        commentAuthor = author;
+        _commentAuthor = author;
     }
 
     public void SetCommentText(string commentText)
     {
-        text = commentText;
+        _text = commentText;
     }
 }
